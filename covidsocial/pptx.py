@@ -14,13 +14,13 @@ from covidsocial.press import Newswhip_article, Newswhip_stats
 
 class COVID_PPT:
     #infegy data
-    infegy = Infegy()
+    infegy = Infegy(api_key= conversation_key)
     volume_df = infegy.volume()
     state_df = infegy.state()
     dma_df = infegy.dma()
     entity_table = infegy.entity_table()
     #newswhip data
-    news = Newswhip_stats()
+    news = Newswhip_stats(api_key= press_key)
     trend_df = news.trend_df()
     publisher_df = news.top_publisher()
     news_articles = Newswhip_article()

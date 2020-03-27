@@ -6,7 +6,7 @@ import pandas as pd
 
 
 if __name__ == '__main__':
-    infegy = Infegy()
+    infegy = Infegy(api_key= conversation_key)
     state_df = infegy.state()
     dma_df = infegy.dma()
     e_worldcloud = infegy.entity_wordcoud()
@@ -15,6 +15,6 @@ if __name__ == '__main__':
         state_df.to_excel(writer, sheet_name = 'state', index=False)
         dma_df.to_excel(writer, sheet_name =  'dma',index=False)
 
-    news_articles = Newswhip_article(api_key = 'your_key')
+    news_articles = Newswhip_article(api_key = press_key)
     bigram_fig = news_articles.bigram()
 

@@ -56,6 +56,10 @@ class covid_email_alert:
         server.sendmail(email_from, email_to, text)
 
 # define my job list
+
+conversation_key = 'conversation_key'
+press_key = 'press_key'
+
 def job():
     exec(open('prep_data.py').read())
     print('Read data')
