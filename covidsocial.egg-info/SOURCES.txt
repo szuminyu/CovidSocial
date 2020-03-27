@@ -1,0 +1,10 @@
+README.txt
+setup.py
+covidsocial/__init__.py
+covidsocial/conversation.py
+covidsocial/press.py
+covidsocial.egg-info/PKG-INFO
+covidsocial.egg-info/SOURCES.txt
+covidsocial.egg-info/dependency_links.txt
+covidsocial.egg-info/requires.txt
+covidsocial.egg-info/top_level.txt
