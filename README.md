@@ -6,12 +6,18 @@ CovidSocial provides social conversation and press tracking regarding Covid-19/c
 
 Typical usage often looks like this:
 
+    import covidsocial
     from covidsocial.conversation import Infegy
     from covidsocial.press import Newswhip_article, Newswhip_stats
+ 
     
     #type your API keys
     conversation_key = 'conversation_key'
     press_key = 'press_key'
+    
+    #execute main
+    covidsocial.main()
+    
 
 
 The data source is from two platforms, [Infegy](https://infegy.com/) and [NewsWhip](https://www.newswhip.com/).
