@@ -10,6 +10,10 @@ Typical usage often looks like this:
 
     from covidsocial.conversation import Infegy
     from covidsocial.press import Newswhip_article, Newswhip_stats
+    
+    #type your API keys
+    conversation_key = 'conversation_key'
+    press_key = 'press_key'
 
 
 The data source is from two platforms, [Infegy](https://infegy.com/) and [NewsWhip](https://www.newswhip.com/).
