@@ -6,8 +6,6 @@ CovidSocial provides social conversation and press tracking regarding Covid-19/c
 
 Typical usage often looks like this:
 
-    #!/usr/bin/env python
-
     from covidsocial.conversation import Infegy
     from covidsocial.press import Newswhip_article, Newswhip_stats
     
